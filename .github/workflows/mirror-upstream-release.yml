@@ -1,0 +1,23 @@
+name: Mirror official client release
+on:
+  push:
+    branches: [ci/mirror-upstream-release]
+    paths:
+      - .github/workflows/mirror-upstream-release.yml
+      - .github/scripts/mirror-upstream-release.py
+      - .github/release-mirror-1.5.0.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mirror-official-client-1.5.0
+  cancel-in-progress: false
+jobs:
+  mirror:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mirror the exact official release assets into a draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/mirror-upstream-release.py
