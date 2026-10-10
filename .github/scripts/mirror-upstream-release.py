@@ -66,10 +66,12 @@ def main():
     releases = api(f'repos/{target}/releases?per_page=100')
     release = next((r for r in releases if r['tag_name'] == tag), None)
     if release is None:
-        gh('release', 'create', tag, '--repo', target, '--verify-tag', '--target', source,
-           '--draft', '--title', tag, '--notes', '')
-        releases = api(f'repos/{target}/releases?per_page=100')
-        release = next(r for r in releases if r['tag_name'] == tag)
+        # Use the create response; listing can briefly lag behind a newly created draft.
+        release = json.loads(subprocess.check_output(
+            ['gh', 'api', '--method', 'POST', f'repos/{target}/releases', '--input', '-'],
+            input=json.dumps({'tag_name': tag, 'target_commitish': source,
+                              'draft': True, 'prerelease': False, 'name': tag, 'body': ''}),
+            text=True))
     assert release['draft'], 'Refusing to change a published release'
     assert release['target_commitish'] == source
     existing = asset_map(release)
