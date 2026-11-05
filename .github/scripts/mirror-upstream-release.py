@@ -31,7 +31,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--verify-source-only', action='store_true')
     args = parser.parse_args()
-    manifest = json.loads(Path('.github/release-mirror-1.5.0.json').read_text())
+    manifest = json.loads(Path('.github/release-mirror-1.5.1.json').read_text())
     upstream, tag, source = (manifest[k] for k in ['repository', 'tag', 'commit'])
     official = api(f'repos/{upstream}/releases/tags/{tag}')
     assert not official['draft'] and not official['prerelease']

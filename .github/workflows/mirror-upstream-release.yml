@@ -5,12 +5,12 @@ on:
     paths:
       - .github/workflows/mirror-upstream-release.yml
       - .github/scripts/mirror-upstream-release.py
-      - .github/release-mirror-1.5.0.json
+      - .github/release-mirror-1.5.1.json
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: mirror-official-client-1.5.0
+  group: mirror-official-client-1.5.1
   cancel-in-progress: false
 jobs:
   mirror:
