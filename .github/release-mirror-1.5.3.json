@@ -1,0 +1,158 @@
+{
+  "repository": "rustdesk/rustdesk",
+  "tag": "1.5.3",
+  "commit": "95cca3f661f635b3cc85c04935fe8d96d8f432ef",
+  "release_id": 438952638,
+  "assets": [
+    {
+      "name": "rustdesk-1.5.3-0-x86_64.pkg.tar.zst",
+      "size": 27227502,
+      "digest": "sha256:e880bc2c3dfb5e22a4a9418945fbe963453f7579bc5692237f24cb59eb1a278f"
+    },
+    {
+      "name": "rustdesk-1.5.3-0.aarch64-suse.rpm",
+      "size": 33551321,
+      "digest": "sha256:4871d3867e424ecbf4a998ee487be85de928a22b0e096a7159b1927562bd3d93"
+    },
+    {
+      "name": "rustdesk-1.5.3-0.aarch64.rpm",
+      "size": 33551269,
+      "digest": "sha256:a36cb8ff424896ffd10df9e9cd8d73b6a00a70128202ac2b550169ff84dd6868"
+    },
+    {
+      "name": "rustdesk-1.5.3-0.x86_64-suse.rpm",
+      "size": 34373365,
+      "digest": "sha256:3693a17c52682c453feb1cf300278b7a4baedb6e6c92a6ad5da0621cf46231e2"
+    },
+    {
+      "name": "rustdesk-1.5.3-0.x86_64.rpm",
+      "size": 34373327,
+      "digest": "sha256:bd5d036392ba6197ece89232c52e71c570e1160f9ac3c1a895c8383ac5911c70"
+    },
+    {
+      "name": "rustdesk-1.5.3-aarch64-signed.apk",
+      "size": 29282490,
+      "digest": "sha256:6b3aca1a7e68c3f80e5abe7ec3bea3e5ff445a03cf77131ff79a1ee4270288ff"
+    },
+    {
+      "name": "rustdesk-1.5.3-aarch64.AppImage",
+      "size": 85486088,
+      "digest": "sha256:924c8dee36cbd7873ba222979ea1e3274c5537c382321504edf1be824e7cde37"
+    },
+    {
+      "name": "rustdesk-1.5.3-aarch64.deb",
+      "size": 23625528,
+      "digest": "sha256:fa85e8d3ccd45e2e303c2d1359af5dc51aa93d880e39ba47c9b04bfabd82ae19"
+    },
+    {
+      "name": "rustdesk-1.5.3-aarch64.dmg",
+      "size": 31464911,
+      "digest": "sha256:e6d30fa1633d772c48935907c208ca4e555a856fb2038af3aaa87a327c29360b"
+    },
+    {
+      "name": "rustdesk-1.5.3-aarch64.exe",
+      "size": 24277360,
+      "digest": "sha256:4152a661be3ddb0e4d241ba3f3a99051f22ce33d348e7a1ccfaca052c832410e"
+    },
+    {
+      "name": "rustdesk-1.5.3-aarch64.flatpak",
+      "size": 23493120,
+      "digest": "sha256:1fb0ebd4cd92c329b2d7cd0fd8d38a1621fe0e50d6f0c8b0cb0a09bfc62a765d"
+    },
+    {
+      "name": "rustdesk-1.5.3-aarch64.msi",
+      "size": 24862720,
+      "digest": "sha256:b41893aed2cf411d557babc3cd02b74836dd199fc152a3b63147591f52f981aa"
+    },
+    {
+      "name": "rustdesk-1.5.3-armv7-sciter.deb",
+      "size": 15249564,
+      "digest": "sha256:2f048f748505c2a46da060cc9a6fb2ac4462bdb37db2c981f931ae4e4d6ed3d5"
+    },
+    {
+      "name": "rustdesk-1.5.3-armv7-signed.apk",
+      "size": 27697346,
+      "digest": "sha256:226445bae974399fdeb10ebebd0ee3dc60c8918626b68e26d08470bffaf85b16"
+    },
+    {
+      "name": "rustdesk-1.5.3-universal-signed.apk",
+      "size": 78979838,
+      "digest": "sha256:2223ab4a1be46f841e50bbd15d6b81b1618658530c6d382f52acfa61febf566b"
+    },
+    {
+      "name": "rustdesk-1.5.3-unsigned.tar.gz",
+      "size": 268611576,
+      "digest": "sha256:0b76d56602a49fe96219de33245c8cd90a2f1b5297efb1040c4aa96d31f5189b"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64-sciter.deb",
+      "size": 18361156,
+      "digest": "sha256:8e0101e598e40792cd153a28611644414743b00ef7724a58cd08d1668f609fcc"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64-sciter.flatpak",
+      "size": 18231904,
+      "digest": "sha256:9abee389e77c137b6b42f99e59059530bba449b3b0a15ddee33f393b1dbd5f12"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64-signed.apk",
+      "size": 28795054,
+      "digest": "sha256:772bc1b3662952f4e5b994d7a50f840fbf3bc0803d4a97a5945fa9390706e9c7"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64.AppImage",
+      "size": 88492536,
+      "digest": "sha256:ff7fff208fed218fc9f895457a36cc2dd31fefbfae0461a27b54f3d391204506"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64.deb",
+      "size": 25345980,
+      "digest": "sha256:81096d2f65fd43352540c351bca15bb0712a2a6f9efa4c95e9fff25cb97b3b81"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64.dmg",
+      "size": 37715587,
+      "digest": "sha256:74d06e6b2e273a128e8d36313e30d47db2063f453a4235ed4d9e5cdfdf9be538"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64.exe",
+      "size": 26233712,
+      "digest": "sha256:523ba0efbf62a21739961b62c7daaffb44d3da86139c546b364fd4e1333ed249"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64.flatpak",
+      "size": 25187184,
+      "digest": "sha256:947239551c8758479a55aa8d03e863655e5c8e4e52c4f79a39d9bb51cc4184f8"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86_64.msi",
+      "size": 26734592,
+      "digest": "sha256:27f6bfb48a93d524860dd7f4a79e349be14b6dc71295746cf132a060ba4869c8"
+    },
+    {
+      "name": "rustdesk-1.5.3-x86-sciter.exe",
+      "size": 13658480,
+      "digest": "sha256:5f4a42c16d0326efee52a3bb84649f2d7d08352193266e94bdc10d6a0fd75dc0"
+    },
+    {
+      "name": "rustdesk-unattended-wayland-1.5.3-x86_64.deb",
+      "size": 25599048,
+      "digest": "sha256:708f390c46c357b72255ed6a1560da644c8381c51dd9b108cbf2a3ceca733e0d"
+    },
+    {
+      "name": "rustdesk-update.json",
+      "size": 2173,
+      "digest": "sha256:9fdc21f7711ca01ee3659398d0797f2350392ba69f8ba2128a90d24c8395af96"
+    },
+    {
+      "name": "rustdesk-update.json.sig",
+      "size": 174,
+      "digest": "sha256:e54e398abadd727bdda95c2372afa5793d0e2d8a3aafdd1d799148f85abda399"
+    },
+    {
+      "name": "rustdesk.sbom.json",
+      "size": 1864346,
+      "digest": "sha256:f7b20955e4e1c87fb12dbd5d93dc40322a479b0a514d87dd3aaca0485361f07d"
+    }
+  ]
+}
